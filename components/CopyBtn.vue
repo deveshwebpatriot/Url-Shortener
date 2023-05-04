@@ -11,6 +11,7 @@ const handleCopy = () => {
   }
 
   navigator.clipboard?.writeText(props.data);
+  alert(props.data)
   isCopied.value = true;
   setTimeout(() => {
     isCopied.value = false;

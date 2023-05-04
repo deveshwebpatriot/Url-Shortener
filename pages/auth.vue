@@ -31,7 +31,7 @@ const handleGithubLogin = async () => {
     auth.signInWithOAuth({
       provider: "github",
       options: {
-        redirectTo: "http://localhost:3000",
+        redirectTo: "http://192.46.209.205:3000",
       },
     });
   } catch (error) {
